@@ -1,0 +1,126 @@
+
+.hero1{
+background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+url(https://images.pexels.com/photos/11011890/pexels-photo-11011890.jpeg);
+background-size: cover;
+height: 100%;
+justify-content: center;
+display: inline-block;
+padding: 10px;
+color:white;
+font-weight: 700;
+}
+.hero1 h1 .hero1 h2 .hero1 h3 .hero1 p{
+text-shadow: 1px 1px 3px rgba( 0,0,0,0.6);
+}
+.hero2{
+background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+url(https://images.pexels.com/photos/11011890/pexels-photo-11011890.jpeg);
+background-size: contain;
+height: 100%;
+justify-content: center;
+display: inline-block;
+padding: 10px;
+color:white;
+font-weight: 700;
+}
+.hero2 h1 .hero2 h2 .hero2 h3 .hero2 p{
+text-shadow: 1px 1px 3px rgba( 0,0,0,0.6);
+}
+.hero3{
+background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+url(https://images.pexels.com/photos/11011890/pexels-photo-11011890.jpeg);
+background-size: contain;
+height: 100%;
+justify-content: center;
+display: inline-block;
+padding: 10px;
+color:white;
+font-weight: 700;
+}
+.hero1 h3 .hero1 h3 .hero3 h3 .hero3 p{
+text-shadow: 1px 1px 3px rgba( 0,0,0,0.6);
+}
+.hero4{
+background-color:grey;
+background-size: contain;
+height: 100%;
+justify-content: center;
+display: inline-block;
+padding: 10px;
+color:white;
+font-weight: 700;
+}
+.hero4 h1 .hero4 h2 .hero4 h3 .hero4 p{
+text-shadow: 1px 1px 3px rgba( 0,0,0,0.6);
+}
+.img{
+width: 250px;
+height: 250px;
+object-fit: cover;
+}
+.p{
+   background-color:goldenrod;
+  border: 3px solid#ccc;
+  border-radius: 10px;
+  padding: 10px;
+  color:black;
+  font-style: italic;
+ margin: 10px 0;
+  font-weight: bold;
+
+}
+.link{
+  display: inline-block;
+  border-radius: 8px;
+  border: 3px black;
+  text-decoration: none;
+  color: white;
+  background-color:chocolate;
+  height: 40px;
+width: 150px;
+margin-right: 20px;
+margin-bottom: 40px;
+margin-top: 40px;
+font-weight:bold;
+box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+text-align: center;
+
+}
+.link:hover{
+  background-color:goldenrod;
+  color: white;
+}
+.form{
+  max-width: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.label{
+  color:goldenrod;
+  font-display: block;
+  font-weight: bold;
+  
+}
+.input{
+  width: 100%;
+  padding: 14px;
+  border: 1px white;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+.button{
+  background-color: goldenrod;
+  color: white;
+  font-display: block;
+  font-weight: 70 bold;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+
+  
+}
